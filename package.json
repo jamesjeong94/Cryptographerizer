@@ -1,0 +1,37 @@
+{
+  "name": "challenge_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/index.js",
+    "build": "webpack --mode development -w",
+    "kill": "kill $(lsof -t -i:3000) | exit 0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "axios": "^0.19.2",
+    "babel-loader": "^8.1.0",
+    "bluebird": "^3.7.2",
+    "bulma": "^0.8.2",
+    "chart.js": "^2.9.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jquery": "^3.5.1",
+    "mongoose": "^5.9.12",
+    "morgan": "^1.10.0",
+    "query-string": "^6.12.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.0",
+    "redis": "^3.0.2",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "thunk": "0.0.1"
+  }
+}

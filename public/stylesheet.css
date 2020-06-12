@@ -1,0 +1,58 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 5px;
+}
+
+.chart {
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 5px;
+  width: 80%;
+  height: 40%;
+  margin: 5px;
+}
+
+.side {
+  position: relative;
+  width: 20%;
+  border: 1px solid grey;
+  border-radius: 5px;
+  height: 40%;
+  margin: 5px;
+}
+
+.data-body {
+  position: relative;
+  padding: 3px;
+  width: 95vw;
+  height: 95vw;
+}
+
+.topbar {
+  width: 94vw;
+}
+
+.center {
+  text-align: center;
+}
+
+.high-module {
+  position: relative;
+  border: 1px solid lightblue;
+  margin: 0 5px 0 5px;
+  height: 33%;
+}
+
+.module-container {
+  position: relative;
+  padding: 10px 5px 5px 5px;
+  height: 100%;
+}
+
+.inside-container {
+  position: relative;
+  padding: 5px;
+  text-align: center;
+}
